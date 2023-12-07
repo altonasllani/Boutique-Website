@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Form</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="boutique.css">
 </head>
 <body>
+    <header class="header_a">
+        <nav class="hed">
+            <a href="#" class="nav_logo">StarBoutique</a>
+            <ul class="nav_links">
+                <li class="link"><a href="boutique.html">Home</a></li>
+                <li class="link"><a href="#">Catergory</a></li>
+                <li class="link"><a href="#">News</a></li>
+                <li class="link"><a href="#">About Us</a></li>
+            </ul>
+            <ul>
+             <a href="Login.html" class="nav_logo2"><b>Login</b></a> 
+            </ul>
+        </nav>
+       </header>
 
+    <div class="login">
+     <img src="starbotique.jpg" alt="image of login" class="login_bg">
+
+     <form action="" class="login_form">
+        <h1 class="login_title">Login</h1>
+        <div class="login_inputs">
+            <div class="login_box">
+                <input type="email" placeholder="Email ID" required class="login_input">
+                <i class="ri-mail-fill"></i>
+            </div>
+
+            <div class="login_box">
+                <input type="password" minlength="8" maxlength="15" placeholder="Password" required class="login_input">
+                <i class="ri-lock-2-fill"></i>
+            </div>
+
+        </div>
+        <div class="login_check">
+            <div class="login_check-box">
+                <input type="checkbox" class="login_check-input" id="user-check">
+                <label for="user-check" class="login_check-label">Remember me</label>
+            </div>
+            
+            <a href="#" class="login_forgot">Forgot Password</a>
+        </div>
+
+        <button type="submit" class="login_button">Login</button>
+        <div class="login_register">
+            Don't have an account? <a href="#">Register</a>
+        </div>
+     </form>
+   </div>
 </body>
 </html>
