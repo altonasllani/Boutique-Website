@@ -126,6 +126,7 @@ img {
     border: 2px solid hsla(0, 0%, 100%, .7);
     padding: 2.5rem 1rem;
     color: var(--white-color);
+    box-shadow: 0 0 25px black;
     border-radius: 1rem;
     backdrop-filter: blur(16px);
 }
@@ -219,6 +220,7 @@ img {
 .login_register{
     font-size: var(--small-font-size);
     text-align: center;
+    color: black;
 }
 
 .login_register a{
