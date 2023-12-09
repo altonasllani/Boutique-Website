@@ -285,7 +285,7 @@ img {
 
 .collection_content .btn a{
     border: 1px solid var(--text-dark);
-    color: var(--textgit-dark);
+    color: var(--text-dark);
     background-color: var(--white);
 }
 
