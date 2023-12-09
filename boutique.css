@@ -252,6 +252,9 @@ img {
 
 .new_collection{
     position: relative;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
 }
 
 .new_collection img{
@@ -282,14 +285,24 @@ img {
     margin-bottom: .5rem;
 }
 
-
-.collection_content .btn a{
+a{
+    color: black;
+}
+.btn{
+    padding: 0.75rem 2rem;
+    font-size: 0.8rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.collection_content .btn {
     border: 1px solid var(--text-dark);
     color: var(--text-dark);
     background-color: var(--white);
 }
 
-.collection_content .btn a:hover{
+.collection_content a:hover .btn {
     background-color: var(--text-dark);
     color: var(--white);
 }
