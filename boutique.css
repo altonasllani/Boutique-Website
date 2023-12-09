@@ -30,7 +30,7 @@ body{
     color: var(--white);
 }
 .hed{
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -243,4 +243,9 @@ img {
    .login_title{
     margin-bottom: 2rem;
    }
+}
+
+.winter_image img{
+    width: 110rem;
+    height: 35rem;
 }
