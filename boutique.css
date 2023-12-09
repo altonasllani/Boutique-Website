@@ -293,3 +293,58 @@ img {
     background-color: var(--text-dark);
     color: var(--white);
 }
+/*======================= category ===================*/
+.section_title1{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: rgb(223, 223, 223);
+}
+.category_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.category_nav a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-light);
+    transition: 0.3s;
+}
+
+.category_nav a:hover{
+    color: var(--text-dark); 
+}
+
+.category_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.category_card{
+    display: grid;
+    gap: .5rem;
+    color: var(--text-dark);
+}
+
+.category_card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.category_card p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.category_card p del{
+    font-weight: 400;
+    color: var(--text-dark);
+}
