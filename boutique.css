@@ -285,7 +285,7 @@ img {
 
 .collection_content .btn a{
     border: 1px solid var(--text-dark);
-    color: var(--text-dark);
+    color: var(--textgit-dark);
     background-color: var(--white);
 }
 
@@ -319,32 +319,4 @@ img {
 
 .category_nav a:hover{
     color: var(--text-dark); 
-}
-
-.category_grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-}
-
-.category_card{
-    display: grid;
-    gap: .5rem;
-    color: var(--text-dark);
-}
-
-.category_card h4 {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.category_card p {
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-}
-
-.category_card p del{
-    font-weight: 400;
-    color: var(--text-dark);
 }
