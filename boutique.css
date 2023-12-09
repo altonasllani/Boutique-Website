@@ -244,8 +244,52 @@ img {
     margin-bottom: 2rem;
    }
 }
-
+/*============== home-page css ====================*/
 .winter_image img{
     width: 110rem;
     height: 35rem;
+}
+
+.new_collection{
+    position: relative;
+}
+
+.new_collection img{
+    max-width: 400px;
+    margin: auto;
+}
+
+.collection_content{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+}
+
+.collection_content .section_title{
+    margin-bottom: 2rem;
+}
+
+.collection_content p{
+    font-size: .9rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.collection_content h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+
+.collection_content .btn a{
+    border: 1px solid var(--text-dark);
+    color: var(--text-dark);
+    background-color: var(--white);
+}
+
+.collection_content .btn a:hover{
+    background-color: var(--text-dark);
+    color: var(--white);
 }
