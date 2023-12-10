@@ -333,3 +333,76 @@ a{
 .category_nav a:hover{
     color: var(--text-dark); 
 }
+
+/*======================= footer css ===================*/
+
+.section_container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+    justify-content: center;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+  
+  .footer_heading {
+    justify-content: center;
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .footer_heading::after {
+   
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background-color: var(--text-light);
+  }
+  
+  .footer_col p {
+  
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer_col p:hover {
+    color: var(--text-dark);
+  }
+  
+  .footer_col p i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .footer_bar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    align-items: center;
+  }
+  
+  .copyright {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-light);
+  }
+  
