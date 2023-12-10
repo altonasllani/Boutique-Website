@@ -529,4 +529,11 @@ body {
     font-weight: 500;
     color: var(--text-light);
 }
-  
+
+/*--------------About Us CSS-------------------*/
+
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
