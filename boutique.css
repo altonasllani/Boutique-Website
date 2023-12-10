@@ -377,24 +377,19 @@ a{
 }
 /*======================= footer css ===================*/
 
-.section_container1 {
-    max-width: var(--max-width);
-    margin: auto;
-    padding: 5rem 1rem;
-    justify-content: center;
-  }
-  
-  body {
+
+body {
     font-family: "Montserrat", sans-serif;
-  }
+}
   
-  .footer_container {
+.footer_container {
+    background-color: rgb(223, 223, 223);
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
-  }
+}
   
-  .footer_heading {
+.footer_heading {
     justify-content: center;
     color: var(--text-light);
     font-size: 1rem;
@@ -402,10 +397,9 @@ a{
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     position: relative;
-  }
+}
   
-  .footer_heading::after {
-   
+.footer_heading::after {
     content: "";
     position: absolute;
     left: 0;
@@ -413,37 +407,42 @@ a{
     height: 2px;
     width: 50px;
     background-color: var(--text-light);
-  }
-  
-  .footer_col p {
-  
+}
+
+.footer_col{
+    margin: 5%;
+}
+
+.footer_col p {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 1rem;
     color: var(--text-light);
     cursor: pointer;
     transition: 0.3s;
-  }
+}
   
-  .footer_col p:hover {
+.footer_col p:hover {
     color: var(--text-dark);
-  }
+}
   
-  .footer_col p i {
+.footer_col p i {
     font-size: 1rem;
     margin-right: 0.5rem;
-  }
+}
   
-  .footer_bar {
+.footer_bar {
+    background-color: rgb(223, 223, 223);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 1rem 1rem;
     align-items: center;
-  }
+}
   
-  .copyright {
+.copyright {
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--text-light);
-  }
+}
   
