@@ -338,15 +338,15 @@ a{
 .category_grid{
     display: flex;
     justify-content: space-around;
-    align-items:center ;
-    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
     gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
     background-color: rgb(223, 223, 223);;
 }
 
 .category_card{
     text-align: center;
-    gap: .5rem;
+    gap: 5rem;
     color: var(--text-dark);
 }
 
